@@ -1,9 +1,38 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite this software release (and the article, once published)."
+message: "If you use this code or these results, please cite this software release (and the article, once published)."
 title: "NPM1-mutated AML: FLT3-ITD vs FLT3-TKD by DNMT3A/TET2 status - multi-cohort public-data analysis (code and results)"
+abstract: >-
+  Reproducible code, pre-specified protocol, data provenance and reference results for a multi-cohort
+  public-data analysis (TCGA-LAML and Beat AML via cBioPortal; AMLSG) testing whether DNMT3A/TET2
+  co-mutation modifies the overall-survival difference between FLT3-ITD and FLT3-TKD in adults with
+  NPM1-mutated acute myeloid leukemia. A single command downloads the public source data, harmonises
+  variants, runs cohort-stratified Cox models with sensitivity analyses and a 2,000-replicate bootstrap,
+  regenerates all tables and figures, and checks the re-run against the reported estimates.
+type: software
 version: 1.0.0
 license: MIT
 repository-code: "https://github.com/lrujito-rgb/npm1-flt3-dnmt3a-tet2-aml"
-keywords: [acute myeloid leukemia, NPM1, FLT3-ITD, FLT3-TKD, DNMT3A, TET2, cBioPortal, survival analysis, reproducibility]
+keywords:
+  - acute myeloid leukemia
+  - NPM1
+  - FLT3-ITD
+  - FLT3-TKD
+  - DNMT3A
+  - TET2
+  - cBioPortal
+  - survival analysis
+  - reproducibility
 authors:
-  - alias: "lrujito-rgb"
+  - family-names: Siswandari
+    given-names: Wahyu
+    affiliation: "Department of Clinical Pathology, Faculty of Medicine, Universitas Jenderal Soedirman, Purwokerto, Indonesia"
+    orcid: "https://orcid.org/0000-0003-1836-8367"
+  - family-names: Rujito
+    given-names: Lantip
+    affiliation: "Department of Genetics and Molecular Medicine, Faculty of Medicine, Universitas Jenderal Soedirman, Purwokerto, Indonesia"
+    orcid: "https://orcid.org/0000-0001-6595-3265"
+contact:
+  - family-names: Siswandari
+    given-names: Wahyu
+    affiliation: "Department of Clinical Pathology, Faculty of Medicine, Universitas Jenderal Soedirman, Purwokerto, Indonesia"
+    orcid: "https://orcid.org/0000-0003-1836-8367"

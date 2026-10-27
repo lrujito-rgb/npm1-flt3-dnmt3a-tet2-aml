@@ -1,6 +1,8 @@
 # NPM1-mutated AML: does DNMT3A/TET2 co-mutation modify the FLT3-ITD vs FLT3-TKD survival difference?
 
 Code, protocol and results for a multi-cohort public-data analysis (TCGA-LAML, Beat AML, AMLSG).
+Authors: Wahyu Siswandari (corresponding; ORCID 0000-0003-1836-8367) and Lantip Rujito (ORCID 0000-0001-6595-3265),
+Faculty of Medicine, Universitas Jenderal Soedirman, Purwokerto, Indonesia.
 Manuscript in preparation; the article citation will be added here on publication.
 
 Licence: code under MIT (`LICENSE`); documentation (`docs/`) and result summaries (`results/`) under CC BY 4.0; source data remain under the terms of their providers (`data/README.md`). An archived, citable release (Zenodo DOI) is linked from the repository page.
