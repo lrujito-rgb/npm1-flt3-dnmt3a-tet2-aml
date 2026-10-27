@@ -1,11 +1,13 @@
 # NPM1-mutated AML: does DNMT3A/TET2 co-mutation modify the FLT3-ITD vs FLT3-TKD survival difference?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23688042.svg)](https://doi.org/10.5281/zenodo.23688042)
+
 Code, protocol and results for a multi-cohort public-data analysis (TCGA-LAML, Beat AML, AMLSG).
 Authors: Wahyu Siswandari (corresponding; ORCID 0000-0003-1836-8367) and Lantip Rujito (ORCID 0000-0001-6595-3265),
 Faculty of Medicine, Universitas Jenderal Soedirman, Purwokerto, Indonesia.
 Manuscript in preparation; the article citation will be added here on publication.
 
-Licence: code under MIT (`LICENSE`); documentation (`docs/`) and result summaries (`results/`) under CC BY 4.0; source data remain under the terms of their providers (`data/README.md`). An archived, citable release (Zenodo DOI) is linked from the repository page.
+Licence: code under MIT (`LICENSE`); documentation (`docs/`) and result summaries (`results/`) under CC BY 4.0; source data remain under the terms of their providers (`data/README.md`). Archived release v1.0.0: https://doi.org/10.5281/zenodo.23688042 (all versions: https://doi.org/10.5281/zenodo.23688041).
 
 ## Question and estimand
 Among adults with NPM1-mutated AML and a single FLT3 alteration class (ITD-only or TKD-only),
@@ -96,5 +98,7 @@ because cBioPortal stores them as an identical placeholder record.
 
 
 ## How to cite
-Cite the article and this release (see `CITATION.cff`). Also cite the data sources:
+Siswandari W, Rujito L. NPM1-mutated AML: FLT3-ITD vs FLT3-TKD by DNMT3A/TET2 status - multi-cohort public-data analysis (code and results). Version v1.0.0. Zenodo; 2026. https://doi.org/10.5281/zenodo.23688042
+
+Please also cite the article once published (see `CITATION.cff`). Also cite the data sources:
 TCGA (NEJM 2013; PMID 23634996), Beat AML (Cancer Cell 2022; PMID 35868306), AMLSG (NEJM 2016, PMID 27276561; Nat Genet 2017, PMID 28092685), and cBioPortal.

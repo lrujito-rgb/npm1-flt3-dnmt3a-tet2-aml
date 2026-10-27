@@ -11,6 +11,13 @@ abstract: >-
 type: software
 version: 1.0.0
 license: MIT
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23688041
+    description: "Zenodo concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.23688042
+    description: "Zenodo DOI of release v1.0.0"
 repository-code: "https://github.com/lrujito-rgb/npm1-flt3-dnmt3a-tet2-aml"
 keywords:
   - acute myeloid leukemia
