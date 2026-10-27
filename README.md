@@ -3,7 +3,7 @@
 Code, protocol and results for a multi-cohort public-data analysis (TCGA-LAML, Beat AML, AMLSG).
 Manuscript in preparation; the article citation will be added here on publication.
 
-Licence: code MIT, docs/results CC BY 4.0 (see `LICENSE`). An archived, citable release (Zenodo DOI) is linked from the repository page.
+Licence: code under MIT (`LICENSE`); documentation (`docs/`) and result summaries (`results/`) under CC BY 4.0; source data remain under the terms of their providers (`data/README.md`). An archived, citable release (Zenodo DOI) is linked from the repository page.
 
 ## Question and estimand
 Among adults with NPM1-mutated AML and a single FLT3 alteration class (ITD-only or TKD-only),
