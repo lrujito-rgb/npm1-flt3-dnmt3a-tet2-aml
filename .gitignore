@@ -1,0 +1,9 @@
+data/raw/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+manuscript/
+*.docx
+.venv/
+results/analytic_dataset.csv
+results/data_dictionary.csv

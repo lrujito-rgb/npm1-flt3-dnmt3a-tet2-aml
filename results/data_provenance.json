@@ -1,0 +1,81 @@
+{
+  "generated_utc": "2026-10-27T02:48:04+00:00",
+  "cbioportal_api_info": {
+    "portalVersion": "v7.2.0",
+    "dbVersion": "3.1.0",
+    "genesetVersion": "msigdb_v2025.1.Hs",
+    "geneTableVersion": "hgnc_v7_2025.10.7",
+    "gitBranch": "1244a341bde1467fc54c7f7496879c0670667231",
+    "gitCommitId": "1244a341bde1467fc54c7f7496879c0670667231",
+    "gitCommitIdDescribe": "1244a34-dirty",
+    "gitCommitIdDescribeShort": "1244a34-dirty",
+    "gitCommitMessageFull": "Frontend v7.2.0\n\nPoints the backend at frontend `v7.2.0`.\n\n- `<version>`: `v7.1.4-SNAPSHOT` -> `v7.2.0`\n- `<frontend.version>`: `v7.1.3` -> `v7.2.0`\n\nCommitted by cbioportal-release-manager.",
+    "gitCommitMessageShort": "Frontend v7.2.0",
+    "gitCommitMessageUserEmail": "cbioportal-release-manager@users.noreply.github.com",
+    "gitCommitMessageUserName": "cbioportal-release-manager",
+    "gitDirty": true
+  },
+  "cbioportal_studies": [
+    "laml_tcga_pub",
+    "aml_ohsu_2022",
+    "aml_ohsu_2018 (classifier validation only)"
+  ],
+  "amlsg_repository": "https://github.com/gerstung-lab/AML-multistage",
+  "amlsg_ref_requested": "a3f96ba727bfa3f30e47d9419a9faf1caab44d51",
+  "amlsg_commit_resolved": "a3f96ba727bfa3f30e47d9419a9faf1caab44d51",
+  "amlsg_commit_date": "2019-03-25T09:29:16Z",
+  "raw_files": {
+    "FLT3_P36888.fasta": {
+      "bytes": 1135,
+      "sha256": "522b8618e966c5cfef5fe48c73ccd126a8424d279562b38a177a2320ac204286"
+    },
+    "aml_ohsu_2022_blood_measurements.tsv": {
+      "bytes": 86648,
+      "sha256": "8527000834fc264cd046f09b35795dd239d7e38e71d701e597730db636f8b400"
+    },
+    "aml_ohsu_2022_clinical_patient.tsv": {
+      "bytes": 228313,
+      "sha256": "891da5a24d2f7cd5fcd34d4c0a370084d722e5131f544d457c77c7e98481f337"
+    },
+    "aml_ohsu_2022_clinical_sample.tsv": {
+      "bytes": 668277,
+      "sha256": "1f4c78f0227480161075f6f337ad10bf67270192c3aec66b81d41a264b286250"
+    },
+    "aml_ohsu_2022_mutations_targetgenes.tsv": {
+      "bytes": 297895,
+      "sha256": "8c326886619761cbf8a294de3cc4b00e33c5ae4f5381b1c32f08f32f2765d2f5"
+    },
+    "aml_ohsu_2022_sequenced_samples.tsv": {
+      "bytes": 24391,
+      "sha256": "edf155f18d7e9cd214411bd67453e97e70d2374795b92c39f598b3b1361b00e9"
+    },
+    "laml_tcga_pub_clinical_patient.tsv": {
+      "bytes": 39644,
+      "sha256": "7557a255cd7a5d4918aae34cd208c1bf77579c0928bc999d0a568db5ea097dcb"
+    },
+    "laml_tcga_pub_clinical_sample.tsv": {
+      "bytes": 25153,
+      "sha256": "59bbe2d4abe727a9bcff33aedda11a539f5672bd7aab766d9889c9b1059e7620"
+    },
+    "laml_tcga_pub_mutations_targetgenes.tsv": {
+      "bytes": 59475,
+      "sha256": "81933c52f153484f572de0e472e453b424612a258bd1da2277acc27251d3106b"
+    },
+    "laml_tcga_pub_sequenced_samples.tsv": {
+      "bytes": 3410,
+      "sha256": "bd75e6bc473d72f3bfe3f3b5473c148a8d81a1f0974c847650fe02b8cc0611d6"
+    },
+    "amlsg/AMLSG_Clinical_Anon.RData": {
+      "bytes": 96505,
+      "sha256": "b0720bc340664de482389cacf74cfecfeec5f3a6adb7a5ba9533486313f78bb8"
+    },
+    "amlsg/AMLSG_Genetic.txt": {
+      "bytes": 537966,
+      "sha256": "8b3a399f491d28fa8af7e3e24c896637023e66720ffbcd021b9e43e2995d902d"
+    },
+    "amlsg/README.md": {
+      "bytes": 3016,
+      "sha256": "d41aebd63f7926b745ed524d34559caf381ace38d1ef26d04dbe10c804ba216f"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite this software release (and the article, once published)."
+title: "NPM1-mutated AML: FLT3-ITD vs FLT3-TKD by DNMT3A/TET2 status - multi-cohort public-data analysis (code and results)"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/lrujito-rgb/npm1-flt3-dnmt3a-tet2-aml"
+keywords: [acute myeloid leukemia, NPM1, FLT3-ITD, FLT3-TKD, DNMT3A, TET2, cBioPortal, survival analysis, reproducibility]
+authors:
+  - alias: "lrujito-rgb"

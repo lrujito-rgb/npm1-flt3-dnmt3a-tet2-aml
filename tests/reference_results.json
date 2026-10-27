@@ -1,0 +1,25 @@
+{
+  "n_primary": 310,
+  "deaths": 196,
+  "n_by_cohort": {
+    "AMLSG": 205,
+    "BeatAML": 76,
+    "TCGA": 29
+  },
+  "cell_events": {
+    "itd=0,epi=0": 13,
+    "itd=0,epi=1": 18,
+    "itd=1,epi=0": 49,
+    "itd=1,epi=1": 116
+  },
+  "coef": {
+    "itd": 0.5100041266548369,
+    "epi": 0.1872690243691778,
+    "itd_x_epi": 0.26144148774847487,
+    "age10": 0.38772528652750765,
+    "male": 0.12080666397796574
+  },
+  "bootstrap_ratio_median": 1.2882538540270339,
+  "bootstrap_lo": 0.5197198845964202,
+  "bootstrap_hi": 2.799290957909203
+}

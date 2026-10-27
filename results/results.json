@@ -1,0 +1,96 @@
+{
+  "n_primary": 310,
+  "deaths": 196,
+  "n_by_cohort": {
+    "AMLSG": 205,
+    "BeatAML": 76,
+    "TCGA": 29
+  },
+  "group_counts": "{('AMLSG', 'NPM1/ITD/epi-mut'): 105, ('AMLSG', 'NPM1/ITD/epi-wt'): 56, ('AMLSG', 'NPM1/TKD/epi-mut'): 22, ('AMLSG', 'NPM1/TKD/epi-wt'): 22, ('BeatAML', 'NPM1/ITD/epi-mut'): 39, ('BeatAML', 'NPM1/ITD/epi-wt'): 25, ('BeatAML', 'NPM1/TKD/epi-mut'): 7, ('BeatAML', 'NPM1/TKD/epi-wt'): 5, ('TCGA', 'NPM1/ITD/epi-mut'): 11, ('TCGA', 'NPM1/ITD/epi-wt'): 8, ('TCGA', 'NPM1/TKD/epi-mut'): 7, ('TCGA', 'NPM1/TKD/epi-wt'): 3}",
+  "ph_global_min_p": 0.10783859936032138,
+  "primary_coefficients": [
+    {
+      "covariate": "itd",
+      "coef": 0.5100041266548369,
+      "exp(coef)": 1.66529806704203,
+      "exp(coef) lower 95%": 0.8905225018542181,
+      "exp(coef) upper 95%": 3.1141466344978532,
+      "p": 0.11028496767478287
+    },
+    {
+      "covariate": "epi",
+      "coef": 0.1872690243691778,
+      "exp(coef)": 1.205951671801763,
+      "exp(coef) lower 95%": 0.586964131032785,
+      "exp(coef) upper 95%": 2.477697286480758,
+      "p": 0.6102366835064892
+    },
+    {
+      "covariate": "itd_x_epi",
+      "coef": 0.26144148774847487,
+      "exp(coef)": 1.2988009435810377,
+      "exp(coef) lower 95%": 0.5873734124128691,
+      "exp(coef) upper 95%": 2.8719105349311773,
+      "p": 0.5184494198505452
+    },
+    {
+      "covariate": "age10",
+      "coef": 0.38772528652750765,
+      "exp(coef)": 1.4736249040631153,
+      "exp(coef) lower 95%": 1.2794211624268936,
+      "exp(coef) upper 95%": 1.6973068928732133,
+      "p": 7.55491989906529e-08
+    },
+    {
+      "covariate": "male",
+      "coef": 0.12080666397796574,
+      "exp(coef)": 1.128406729608391,
+      "exp(coef) lower 95%": 0.8434204297997786,
+      "exp(coef) upper 95%": 1.5096880540678583,
+      "p": 0.41599089373083176
+    }
+  ],
+  "events_per_parameter": 39.2,
+  "cell_events": {
+    "itd=0,epi=0": 13,
+    "itd=0,epi=1": 18,
+    "itd=1,epi=0": 49,
+    "itd=1,epi=1": 116
+  },
+  "heterogeneity": {
+    "HR ITD vs TKD | epi-wt": {
+      "I2": 0.0,
+      "Q_p": 0.9062130446496045
+    },
+    "HR ITD vs TKD | epi-mut": {
+      "I2": 45.00591239986302,
+      "Q_p": 0.16228888510795977
+    },
+    "HR epi-mut vs wt | TKD": {
+      "I2": 0.0,
+      "Q_p": 0.6118621595363739
+    },
+    "HR epi-mut vs wt | ITD": {
+      "I2": 0.0,
+      "Q_p": 0.8344901565835262
+    },
+    "Ratio of HRs (interaction)": {
+      "I2": 0.0,
+      "Q_p": 0.5184091215052165
+    }
+  },
+  "S5_n_by_group": "{('AMLSG', 'ITD'): 161, ('AMLSG', 'TKD'): 44, ('BeatAML', 'ITD'): 64, ('BeatAML', 'TKD'): 14, ('TCGA', 'ITD'): 14, ('TCGA', 'TKD'): 10}",
+  "S7_bootstrap_interaction": {
+    "B": 2000,
+    "successful": 2000,
+    "failed_or_divergent": 0,
+    "ratio_median": 1.2882538540270339,
+    "lo": 0.5197198845964202,
+    "hi": 2.799290957909203
+  },
+  "followup_reverse_km_median_months": {
+    "AMLSG": 79.73716632443532,
+    "BeatAML": 30.871232876712327,
+    "TCGA": 41.4
+  }
+}

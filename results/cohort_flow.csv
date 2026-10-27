@@ -1,0 +1,34 @@
+cohort,step,n
+TCGA,all patients in study,200
+TCGA,sequenced,200
+TCGA,age >= 18 y,200
+BeatAML,all samples,942
+BeatAML,AML samples,905
+BeatAML,initial-diagnosis specimens,574
+BeatAML,sequenced (WES),551
+BeatAML,age >= 18 y,532
+BeatAML,one diagnostic sample per patient,519
+BeatAML,clinical FLT3-ITD status known,519
+AMLSG,all patients,1540
+AMLSG,age >= 18 y,1540
+TCGA,NPM1 mutated,54
+TCGA,  FLT3 status: ITD,19
+TCGA,  FLT3 status: TKD,10
+TCGA,  FLT3 status: ITD+TKD,0
+TCGA,  FLT3 status: none,25
+TCGA,ITD-only or TKD-only,29
+TCGA,OS available (primary analysis set),29
+BeatAML,NPM1 mutated,150
+BeatAML,  FLT3 status: ITD,65
+BeatAML,  FLT3 status: TKD,13
+BeatAML,  FLT3 status: ITD+TKD,1
+BeatAML,  FLT3 status: none,71
+BeatAML,ITD-only or TKD-only,78
+BeatAML,OS available (primary analysis set),76
+AMLSG,NPM1 mutated,436
+AMLSG,  FLT3 status: ITD,161
+AMLSG,  FLT3 status: TKD,44
+AMLSG,  FLT3 status: ITD+TKD,9
+AMLSG,  FLT3 status: none,222
+AMLSG,ITD-only or TKD-only,205
+AMLSG,OS available (primary analysis set),205
